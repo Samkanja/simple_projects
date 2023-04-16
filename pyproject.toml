@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "banking-system"
+version = "0.1.0"
+description = ""
+authors = ["Samkanja <samuelkanja4@gmail.com>"]
+readme = "README.md"
+packages = [{include = "banking_system"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
